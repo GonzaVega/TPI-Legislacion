@@ -1,94 +1,115 @@
 # Guía Maestra para el Modelo de Planeamiento (Claude)
 
-> **Destinatario:** Modelo de Inteligencia Artificial a cargo de la Planificación y Arquitectura de Contenidos (Claude).  
-> **Proyecto:** Trabajo Práctico Integrador (TPI) – Legislación e IA Aplicada  
+> **Destinatario:** Modelo de Inteligencia Artificial a cargo de la Planificación Estratégica y Arquitectura Dogmática (Claude).  
+> **Proyecto:** Trabajo Práctico Integrador (TPI) – Legislación e IA Aplicada (Versión 1.1)  
 > **Carrera:** Tecnicatura Universitaria en Programación (UTN)  
 > **Estudiante:** Gonzalo Vega  
 > **Eje Temático:** **Eje 1 – Cibercrimen, evidencia digital y cadena de custodia**  
+> **Caso Seleccionado:** **Caso Ezequiel Nuñes Pinheiro (SIM Swapping, Acceso Ilegítimo a Bases de Datos y Fraude Informático)**  
 > **Plantilla Oficial de Entrega:** `material/Plantilla entrega de trabajos ok.docx`  
+> **Ubicación de Entregables:** `resolucion-consignas/`  
 > **Agente Ejecutor / Operativo:** Antigravity (asistente local en IDE)
 
 ---
 
-## 1. División de Roles y Flujo de Trabajo
+## 1. Misión de Claude (Planificador) y Orquestación con Antigravity (Ejecutor)
 
-Para maximizar la calidad académica y la rigurosidad técnica, el trabajo se organiza en un esquema de dos agentes coordinados por el estudiante:
+El estudiante ha establecido un flujo en dos capas para garantizar máxima rigurosidad técnica y jurídica:
 
 ```mermaid
-flowchart LR
+flowchart TD
     User[Gonzalo Vega\nControl & Validación Humana] --> Claude[Claude\nPlanificador Estratégico]
-    Claude --> Plan[Plan de Acción y Estructura Argumentativa]
+    Claude --> Plan[Estructura y Pautas por Etapa]
     Plan --> User
     User --> Antigravity[Antigravity\nEjecutor Operativo en IDE]
-    Antigravity --> Artefactos[Documentos, Matriz, Scripts & DOCX]
-    Artefactos --> User
+    Antigravity --> ResConsignas[resolucion-consignas/\nInforme DOCX, PDF, Guion 4 pers, Anexos ZIP, PPTX]
+    ResConsignas --> User
 ```
 
-* **Rol de Claude (Planificador Estratégico):**
-  * Conceptualizar la estrategia dogmático-penal y el análisis pericial del caso seleccionado.
-  * Diseñar la estructura pormenorizada de cada una de las 6 etapas obligatorias del informe.
-  * Formular la matriz de riesgos formal (al menos 5 riesgos con tipificación, norma, probabilidad, impacto y mitigación).
-  * Redactar las bases del protocolo pericial de cadena de custodia y la plantilla de informe técnico del TUP.
-  * Entregar instrucciones claras y modulares para que el agente ejecutor (Antigravity) ensamble los textos y aplique el formato sobre la plantilla oficial.
+* **Rol de Claude:**
+  1. Diseñar la arquitectura conceptual del informe respetando las 6 etapas obligatorias.
+  2. Determinar la subsunción dogmático-penal exacta del caso bajo el Código Penal Argentino (Ley 26.388).
+  3. Definir la matriz de riesgos formal (al menos 5 riesgos con tipificación, norma, probabilidad, impacto y mitigación).
+  4. Proveer las directrices técnicas para el protocolo de cadena de custodia (ISO/IEC 27037) y la plantilla del informe técnico-pericial del TUP.
+  5. Pautar la división de roles para el guion de exposición de 4 integrantes (8 a 12 minutos).
 
-* **Rol de Antigravity (Ejecutor Operativo):**
-  * Interactuar con el sistema de archivos local, auditar fuentes, extraer textos de normas y fallos.
-  * Poblar y maquetar el documento final sobre `material/Plantilla entrega de trabajos ok.docx`.
-  * Mantener al día la bitácora de trazabilidad `actividad-IA/registro-trazabilidad-ia.md`.
-  * Preparar las diapositivas para la presentación final (`Modelo_Presentacion_TPI_Legislacion.pptx`).
-
----
-
-## 2. Consigna y Requisitos Obligatorios de la Cátedra
-
-El trabajo debe respetar estrictamente la rúbrica de la UTN y estructurarse en **6 Etapas Obligatorias**:
-
-1. **Etapa 1 – Presentación del caso y alcance:**
-   * Descripción del escenario fáctico real elegido, actores (víctimas, imputado/s, investigadores, fiscalías), sistema/servicio informático afectado, vectores de ataque, datos comprometidos y límites del análisis pericial.
-2. **Etapa 2 – Marco jurídico aplicable:**
-   * Tipificación penal argentina (Ley 26.388 que modificó el Código Penal: art. 153 bis -acceso indebido-, arts. 183 y 184 inc. 5/6 -daño informático e interrupción de servicios-, art. 157 -violación de secretos-, etc.).
-   * Normativa procesal y protocolos de evidencia digital (Guías del Ministerio Público Fiscal, arts. de allanamiento y secuestro digital).
-   * Estándares periciales internacionales (ISO/IEC 27037 para levantamiento y preservación; RFC 3227 para orden de volatilidad).
-   * Cooperación internacional y Convenio de Budapest sobre Ciberdelincuencia (Ley 27.411 de adhesión de Argentina).
-3. **Etapa 3 – Matriz de riesgos legales y de cumplimiento:**
-   * Tabla estructurada obligatoria con al menos 5 riesgos concretos:
-     * *Campos requeridos:* `Riesgo` | `Tipo` (Penal, Civil, Administrativo, Técnico, Reputacional) | `Norma/Principio Vinculado` | `Probabilidad` | `Impacto` | `Medida Propuesta`.
-4. **Etapa 4 – Medidas, documentos y protocolos:**
-   * Procedimiento de relevamiento, preservación y documentación de evidencia digital (adquisición forense bit a bit, cálculo de hashes SHA-256, preservación de logs y sellado de tiempo).
-   * Formulario / Protocolo formal de **Cadena de Custodia**.
-   * **Plantilla de Informe Técnico-Jurídico** emitido por el Técnico Universitario en Programación (TUP) actuando como consultor técnico o perito de parte.
-5. **Etapa 5 – Uso de IA y reflexión crítica:**
-   * Declaración explícita de herramientas utilizadas, prompts, resultados aprovechados, descartes y método de validación humana (remitiendo a los anexos de la carpeta `actividad-IA/`).
-6. **Etapa 6 – Conclusiones y rol profesional del TUP:**
-   * Reflexión ética y técnica sobre las responsabilidades profesionales, el valor probatorio de los sistemas y el límite de las competencias del programador frente a la labor judicial.
+* **Rol de Antigravity:**
+  1. Redactar y maquetar el informe final en formato Word (`.docx`) sobre `material/Plantilla entrega de trabajos ok.docx` y compilarlo en PDF.
+  2. Redactar el guion completo de la presentación para 4 integrantes en `resolucion-consignas/presentacion-y-guion/guion-video-presentacion-4-integrantes.md`.
+  3. Poblar la presentación editable en `resolucion-consignas/presentacion-y-guion/`.
+  4. Generar todos los archivos que integran la carpeta `resolucion-consignas/anexos-para-zip/` (informe pericial, formulario de cadena de custodia, script Python de verificación de hashes, matriz detallada y registros de IA).
 
 ---
 
-## 3. Entregables Finales Esperados
-* **Portada oficial:** Conforme a `material/Plantilla entrega de trabajos ok.docx` (Alumno: Gonzalo Vega, Materia: Legislación, etc.).
-* **Resumen ejecutivo:** Entre 8 y 12 líneas (estricto según consigna).
-* **Informe escrito completo:** 6 etapas desarrolladas con rigor técnico-jurídico.
-* **Anexos:** Carpeta `actividad-IA` con bitácoras y registros.
-* **Presentación:** Guion y diapositivas basadas en `consignas/Modelo_Presentacion_TPI_Legislacion.pptx` (duración estimada para video: 8 a 12 minutos).
+## 2. Ficha Técnica y Fáctica del Caso: Ezequiel Nuñes Pinheiro
+
+* **Contexto geográfico y temporal:** Eldorado (Provincia de Misiones) y Ciudad Autónoma de Buenos Aires (2022 - 2023).
+* **Los Hechos Investigados:**
+  * El imputado desplegó ataques dirigidos de **SIM Swapping** (suplantación de identidad ante las empresas prestadoras de telefonía móvil, como Telecom/Personal) para solicitar la reposición fraudulenta y duplicación no autorizada de tarjetas SIM pertenecientes a las víctimas (magistrados de la Corte Suprema, jueces federales, funcionarios públicos y particulares).
+  * Como fase previa y concurrente, ejecutó **accesos ilegítimos y consultas masivas no autorizadas a bases de datos de información crediticia y datos personales (Nosis, Veraz, Renaper)** para sortear los cuestionarios de validación de identidad requeridos por las operadoras telefónicas (fechas de emisión de DNI, números de trámite, domicilios previos).
+  * Una vez activada la SIM duplicada en su poder, interceptó en tiempo real los códigos OTP remitidos por SMS para vulnerar el **Doble Factor de Autenticación (2FA)** y restablecer contraseñas, tomando el control exclusivo de cuentas de mensajería instantánea (**Telegram y WhatsApp**) y correos electrónicos de las víctimas.
+  * Se constató la posterior exfiltración, difusión no consentida de información privada y maniobras extorsivas y de suplantación.
+* **Intervención Judicial y Pericial:**
+  * Investigación coordinada por la Unidad Fiscal Especializada en Delitos y Contravenciones Informáticas de CABA (**UFEDECO**, Dr. Alejandro Musso) y la **UFECI** (Dr. Horacio Azzolin).
+  * Allanamiento en Eldorado (Misiones) con secuestro de 15 tarjetas SIM, teléfonos móviles, notebooks, memorias flash y routers.
+  * Análisis pericial sobre **logs de conexión de servidores web con registros IP**, registros de detalle de llamadas (CDR - Call Detail Records), celdas de antenas de telecomunicaciones (BTS) y extracciones forenses lógicas y físicas de dispositivos móviles utilizando *Cellebrite UFED* con cálculo de **hashes criptográficos SHA-256**.
+* **Resolución Judicial y Certeza Procesal:**
+  * **Sentencia condenatoria firme en Juicio Abreviado** homologada el **6 de octubre de 2023** por la Jueza María Araceli Martínez, titular del Juzgado de 1ª Instancia en lo Penal, Contravencional y de Faltas N° 29 de CABA.
+  * Condena a **3 años de prisión en suspenso** tras confesar los hechos, decomiso judicial definitivo de todo el hardware secuestrado y sujeción a estrictas reglas de conducta.
 
 ---
 
-## 4. Análisis y Selección del Caso para Claude
+## 3. Requerimientos Normativos y Estructura del Informe (6 Etapas)
 
-Al momento de planificar, evalúa la siguiente comparativa crítica:
+Claude debe estructurar el contenido garantizando la satisfacción de los criterios de la rúbrica UTN:
 
-| Criterio | Caso Vélez Cheratto ("Líbero") *(Recomendado)* | Caso LibreFútbol / Pelota Libre |
-|:---|:---|:---|
-| **Alineación con el Eje** | **100% Eje 1 (Cibercrimen & Evidencia Digital).** Hackeo, defacement a *El Litoral*, interrupción de servicios, intrusión al Ministerio de Seguridad y amenazas. | **Eje 3 (Propiedad Intelectual).** Retransmisión de señales audiovisuales y elusión de tokens bajo la Ley 11.723. |
-| **Certeza Judicial / Sentencia** | **Sentencia firme y condenatoria** (Juicio abreviado ante Tribunal Oral Federal) + Fallo de Casación Penal Sala I (Causa 19631/Reg. 555) sobre custodia de evidencias digitales e informes forenses. | **Sin sentencia definitiva.** Causa reciente (julio 2024), excarcelación del creador ("Kashgar") y suspensión del proceso o investigación preliminar abierta. |
-| **Presencia en la Cátedra** | **Caso insignia de la Unidad 4** de la propia materia Legislación (referenciado explícitamente en el material provisto por el alumno). | Caso mediático reciente, pero ajeno al núcleo de delitos informáticos puros de la Ley 26.388. |
-| **Riqueza de Evidencia Digital** | Análisis de logs de servidores web, direccionamiento IP, allanamientos informáticos, copias espejo de discos, hashes y custodia de soportes ópticos/magnéticos. | Principalmente dominios DNS, stream grabbing y convenios de piratería comercial. |
+1. **Portada:** Basada en la plantilla de Gonzalo Vega (`material/Plantilla entrega de trabajos ok.docx`).
+2. **Resumen Ejecutivo:** Estrictamente de **8 a 12 líneas** (síntesis del caso, vector técnico, tipificación penal y conclusión pericial).
+3. **Etapa 1 – Presentación del caso y alcance:**
+   * Actores: Imputado (Nuñes Pinheiro), víctimas (jueces, funcionarios, particulares), operadoras (Telecom/Personal), proveedores de datos (Nosis/Renaper), fiscalías especializadas (UFEDECO, UFECI).
+   * Sistema analizado: Ecosistema celular (red GSM/LTE, protocolo SS7, SMS OTP), sistemas de provisión de SIM (operadoras telefónicas), bases de datos Nosis/Renaper y aplicaciones de mensajería (Telegram/WhatsApp).
+   * Datos tratados y alcance pericial: Registros de logs, direcciones IP, celdas BTS, volcados forenses de memoria y copias espejo.
+4. **Etapa 2 – Marco jurídico aplicable (con fundamentación de aplicabilidad):**
+   * **Código Penal de la Nación Argentina (Ley 26.388 de Delitos Informáticos):**
+     * **Art. 153 bis CPA:** Acceso no autorizado a sistemas informáticos de acceso restringido (consultas ilegítimas a Nosis/Renaper y secuestro de cuentas).
+     * **Art. 173 inc. 16 CPA:** Defraudación mediante técnicas de manipulación informática o uso no autorizado de datos.
+     * **Art. 157 CPA:** Violación de secretos y revelación indebida de datos personales.
+   * **Ley 25.326 de Protección de los Datos Personales:** Deber de seguridad (art. 9), deber de confidencialidad (art. 10) y responsabilidad de los bancos de datos.
+   * **Estándar Internacional ISO/IEC 27037:** Directrices para el aseguramiento, identificación, recolección, adquisición y preservación de evidencia digital.
+   * **RFC 3227:** Orden de volatilidad de la evidencia digital.
+   * **Convenio de Budapest sobre Ciberdelincuencia (Ley 27.411):** Conservación rápida de datos informáticos almacenados y auxilio judicial.
+5. **Etapa 3 – Matriz de riesgos legales y de cumplimiento (mínimo 5 riesgos):**
+   * Formato obligatorio de tabla:  
+     `| Riesgo | Tipo | Norma/Principio Vinculado | Probabilidad | Impacto | Medida Propuesta |`
+   * Debe abarcar riesgos: Penales (imputación por arts. 153 bis y 173 inc. 16), Procesales (nulidad de evidencia por quiebre de cadena de custodia - art. 18 CN), Administrativos/Regulatorios (sanciones del ENACOM y AAIP por vulneración en portabilidad y custodia de datos), Técnicos (vulnerabilidad intrínseca del 2FA vía SMS no cifrado) y Reputacionales.
+6. **Etapa 4 – Medidas, documentos y protocolos propuestos:**
+   * Procedimiento de adquisición forense bit a bit (imágenes `raw`/`dd` o `E01`) y cálculo de hashes SHA-256.
+   * Formulario modelo de **Cadena de Custodia** conforme a ISO/IEC 27037.
+   * **Plantilla de Informe Técnico-Jurídico** emitido por el Técnico Universitario en Programación (TUP) actuando como consultor pericial.
+   * Propuestas técnicas de mitigación: abandono de 2FA vía SMS a favor de llaves de seguridad FIDO2/WebAuthn o TOTP (RFC 6238), y validación biométrica obligatoria en reemplazo de preguntas de seguridad estáticas ante trámites de reemplazo de SIM.
+7. **Etapa 5 – Uso de IA y reflexión crítica:**
+   * Detalle de herramientas (Claude para arquitectura, Antigravity para ejecución). Declaración explícita de trazabilidad remitiendo a los anexos en `actividad-IA/`.
+8. **Etapa 6 – Conclusiones y rol profesional del TUP:**
+   * Responsabilidad legal y deontológica del programador, límites del perito técnico y valor probatorio en la justicia penal.
+9. **Bibliografía y fuentes jurisprudenciales.**
 
 ---
 
-## 5. Directrices de Salida para Claude
-Cuando el usuario te solicite planificar una etapa o el trabajo completo:
-1. **Sé preciso y modular:** Divide las propuestas en secciones claras que Antigravity pueda transformar en archivos o código.
-2. **Cita las normas con exactitud:** Usa la numeración real del Código Penal Argentino tras la reforma de la Ley 26.388 y la Ley 25.326.
-3. **Fundamenta la técnica:** En los puntos periciales, detalla comandos, herramientas estándar (ej. `dd`, `dcfldd`, `sha256sum`, Autopsy, FTK Imager) y metodologías formales reconocidas.
-4. **Respeta la rúbrica:** Asegúrate de que no quede ningún criterio evaluativo sin cubrir.
+## 4. Distribución del Guion de Exposición para 4 Integrantes (8 a 12 minutos)
+
+El guion para el punto 6.3 debe estructurarse con tiempos exactos:
+
+| Integrante | Rol Temático | Secciones Asignadas | Tiempo Estimado |
+|:---|:---|:---|:---|
+| **Integrante 1** | **Apertura y Hechos** | Portada, resumen ejecutivo, presentación del caso Nuñes Pinheiro, vector de ataque (SIM Swapping) y alcance técnico. | 2:30 min |
+| **Integrante 2** | **Marco Jurídico Penal** | Ley 26.388 (arts. 153 bis, 173 inc. 16, 157 CPA), Ley 25.326, Convenio de Budapest y garantías procesales (art. 18 CN). | 2:30 min |
+| **Integrante 3** | **Matriz de Riesgos y Medidas** | Exposición de la matriz de riesgos priorizada, falencias de 2FA por SMS y propuestas de mitigación técnica y regulatoria. | 2:30 min |
+| **Integrante 4** | **Cadena de Custodia e IA** | Procedimiento forense (ISO 27037, hashes SHA-256, logs), rol del TUP, declaración de IA y conclusiones finales. | 2:30 min |
+| **TOTAL** | | | **10:00 min** (dentro del rango 8-12 min) |
+
+---
+
+## 5. Instrucciones para la Salida de Claude
+Cuando el usuario te presente esta guía:
+* Desarrolla en profundidad y de forma estructurada cada una de las **6 etapas**.
+* Aporta los textos, tablas y redacciones técnicas precisas para que Antigravity pueda volcarlas directamente a la plantilla oficial de Word, armar el guion de presentación y compilar los archivos del ZIP de anexos.

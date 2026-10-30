@@ -1,0 +1,60 @@
+================================================================================
+ÍNDICE DE CONTENIDOS DEL ARCHIVO DE ANEXOS (ZIP) - TPI LEGISLACIÓN
+================================================================================
+
+Materia: Legislación
+Carrera: Tecnicatura Universitaria en Programación (UTN)
+Comisión: Comisión 5
+Integrantes: Mateo Serafini, Hugo Tcach, Farid Salomon, Gonzalo Vega
+Caso: Elías Ezequiel Nuñes Pinheiro (SIM Swapping y Evidencia Digital)
+
+Este directorio contiene la totalidad de los anexos documentales, periciales,
+normativos y de gobernanza de Inteligencia Artificial que integran la entrega:
+
+01_Protocolo_Evidencia_Digital.md
+   Guía práctica de cinco pasos simples para el relevamiento, aislamiento,
+   duplicación forense, cálculo de hash y preservación de evidencia digital.
+
+02_Formulario_Cadena_Custodia.md
+   Modelo formal de acta y registro de cadena de custodia para documentar de
+   forma verificable el recorrido físico y lógico de los elementos secuestrados.
+
+03_Plantilla_Informe_Tecnico_Juridico_TUP.md
+   Estructura estandarizada de informe pericial técnico elaborado para el
+   Técnico Universitario en Programación que colabora como consultor de parte.
+
+04_Matriz_Riesgos.xlsx (y 04_Matriz_Riesgos.md)
+   Planilla de cálculo con la matriz completa de 7 riesgos clasificados por
+   tipo, probabilidad, impacto, criticidad y medidas concretas de mitigación.
+
+05_calcular_hashes.py
+   Script simple en Python (utiliza exclusivamente la librería estándar hashlib)
+   para calcular y verificar de forma reproducible códigos hash SHA-256 de
+   archivos o directorios, generando un archivo CSV de constancia.
+
+06_Prompts_y_Registro_IA.md
+   Bitácora completa y cronológica de interacción con herramientas de IA,
+   registrando consultas, aportes aprovechados, correcciones de alucinaciones
+   y métodos de verificación humana cruzada.
+
+07_Declaracion_Uso_IA.md
+   Declaración ética y formal de uso responsable y trazable de Inteligencia
+   Artificial conforme a las directrices de la consigna oficial.
+
+08_Fuentes_Caso.md
+   Compilado integral de fuentes consultadas: tanto los documentos de estudio
+   oficiales como la matriz de fuentes periodísticas y judiciales del caso.
+
+09_Sentencia_Abreviado_CABA/
+   Carpeta que contiene el documento LEEME.txt con la radicación institucional
+   de la sentencia en el Juzgado PCyF Nº 29 de CABA, el detalle de la condena
+   homologada en juicio abreviado y la explicación de la reserva de acceso público.
+
+10_Evidencia_Fuentes/
+   Resúmenes analíticos y enlaces directos a las notas de prensa judicial
+   de Infobae, Clarín, La Nación, Perfil, Página/12, Primera Edición y El Territorio.
+
+================================================================================
+Nota: Este conjunto de archivos está preparado para ser comprimido en formato .ZIP
+por el usuario para su entrega final.
+================================================================================

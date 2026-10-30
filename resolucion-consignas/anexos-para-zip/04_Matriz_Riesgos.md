@@ -1,0 +1,18 @@
+# MATRIZ DE RIESGOS LEGALES, TÉCNICOS Y DE CUMPLIMIENTO
+
+> **Caso:** Elías Ezequiel Nuñes Pinheiro – SIM Swapping y Acceso Ilegítimo  
+> **Autores:** Mateo Serafini, Hugo Tcach, Farid Salomon, Gonzalo Vega (Comisión 5)  
+> **Materia:** Legislación – Tecnicatura Universitaria en Programación (UTN)  
+> **Formato:** Disponible en este documento y en planilla de cálculo `04_Matriz_Riesgos.xlsx`.
+
+---
+
+| ID | Riesgo Detectado | Tipo de Riesgo | Norma / Principio Vinculado | Probabilidad | Impacto | Criticidad (P × I) | Medida Propuesta |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| **R1** | **Reposición fraudulenta de tarjetas SIM por validación débil de identidad.** Se entregan chips a terceros atacantes usando solo datos personales públicos o fáciles de conseguir. | Técnico / Operativo | Ley 25.326 (Art. 9) y normas de telecomunicaciones. | Alta | Muy Alto | **Crítica** | Exigir validación biométrica en la app de la compañía o trámite presencial con DNI físico para duplicar una SIM, eliminando cuestionarios estáticos. |
+| **R2** | **Vulneración de cuentas de usuario por utilizar SMS como segundo factor de autenticación.** Los códigos de verificación viajan sin cifrar y llegan al chip clonado. | Técnico / Seguridad | Art. 18 de la Constitución Nacional y buenas prácticas de seguridad. | Alta | Muy Alto | **Crítica** | Reemplazar el SMS por aplicaciones autenticadoras de códigos temporales (TOTP) o llaves de seguridad físicas. |
+| **R3** | **Acceso indebido a cuentas de mensajería y exfiltración de conversaciones privadas.** El atacante entra al perfil de la víctima y lee sus mensajes. | Penal | Código Penal (Art. 153 bis y Art. 153). | Alta | Alto | **Alta** | Incorporar una contraseña o PIN interno en la aplicación (verificación en dos pasos nativa de WhatsApp/Telegram) independiente de la línea celular. |
+| **R4** | **Pérdida de señal e interrupción total del servicio de comunicaciones del titular legítimo.** La víctima queda incomunicada sin saber por qué. | Operativo / Penal | Código Penal (Art. 197). | Alta | Medio | **Media** | Enviar una alerta inmediata por correo electrónico y notificación push antes de desactivar la SIM original, otorgando un período de gracia para cancelar el trámite. |
+| **R5** | **Nulidad de la prueba digital por fallas en la cadena de custodia.** Dispositivos secuestrados encendidos, alterados o sin registro de quién los manipuló. | Procesal / Legal | Art. 18 CN (debido proceso) e ISO/IEC 27037. | Media | Muy Alto | **Alta** | Aplicar el protocolo oficial de secuestro: colocar teléfonos en modo avión o bolsas de Faraday, calcular hash SHA-256 de cada archivo y registrar firmas de entrega. |
+| **R6** | **Responsabilidad legal de empresas por falta de medidas de seguridad en el tratamiento de datos.** Sanciones administrativas y demandas civiles por entregar líneas sin control. | Administrativo / Civil | Ley 25.326 (Art. 9 y 31) y Ley de Defensa del Consumidor. | Alta | Medio | **Media** | Implementar auditorías internas de seguridad, registro estricto de qué empleado autoriza cada reemplazo de SIM y sanciones por incumplimiento de protocolos. |
+| **R7** | **Riesgo ético y penal para programadores por participar en maniobras informáticas ilegales.** Desarrolladores que prestan servicios o crean herramientas para terceros sin medir las consecuencias penales. | Ético / Penal | Código Penal (Art. 153 bis, participación criminal). | Media | Alto | **Media** | Formación profesional sólida en ética y legislación informática; abstenerse de manipular accesos, vender credenciales o colaborar con servicios no autorizados. |

@@ -1,0 +1,17 @@
+CONSTANCIA DE INVESTIGACIÓN JURISPRUDENCIAL Y ESTADO DE LA SENTENCIA
+
+Tribunal: Juzgado de 1ª Instancia en lo Penal, Contravencional y de Faltas Nº 29 de la Ciudad Autónoma de Buenos Aires.
+Jueza interviniente: Dra. María Araceli Martínez.
+Imputado: Elías Ezequiel Nuñes Pinheiro.
+Procedimiento: Homologación de Juicio Abreviado (Sentencia condenatoria).
+Fecha: Octubre de 2023.
+Pena: 3 años de prisión en suspenso (ejecución condicional), fijar residencia y someterse al cuidado del Patronato de Liberados.
+Delitos condenados: Acceso ilegítimo a datos informáticos de acceso restringido (art. 153 bis del Código Penal Argentino), sustracción de documentos públicos y entorpecimiento de las comunicaciones (art. 197 del CPA).
+
+NOTA SOBRE EL ACCESO AL TEXTO ÍNTEGRO:
+De acuerdo con las consultas realizadas en el portal del Poder Judicial de la Ciudad Autónoma de Buenos Aires (JusBaires) y repositorios oficiales abiertos, el texto íntegro en PDF con los considerandos de sentencias de juicio abreviado de primera instancia en causas penales con medidas de protección de datos personales de las víctimas no se encuentra disponible para descarga pública irrestricta por internet sin previa autenticación judicial o solicitud formal ante la secretaría del tribunal.
+
+Por tal razón, y siguiendo las pautas de integridad y no invención acordadas para este trabajo:
+1. No se ha generado ni reconstruido un texto apócrifo de la sentencia.
+2. Los datos fácticos, calificación legal y resolución condenatoria fueron verificados y cruzados a través de múltiples coberturas de fuentes periodísticas fidedignas (Infobae, Clarín, La Nación, Perfil, Página/12, Primera Edición de Misiones y El Territorio), cuyos resúmenes y enlaces constan en la carpeta de anexos "10_Evidencia_Fuentes" y en el documento "08_Fuentes_Caso.md".
+3. En caso de que se obtenga el testimonio en PDF directamente del tribunal (Juzgado PCyF Nº 29, Beruti 3345, CABA), el archivo digital correspondiente se incorporará en este directorio.
