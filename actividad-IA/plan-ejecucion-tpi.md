@@ -175,3 +175,28 @@ Incluir transiciones y 3 preguntas probables del docente con respuesta.
 - **Extensión y formato:** oraciones cortas, párrafos breves, tablas simples. Sin adornos innecesarios.
 - **Control final:** antes de entregar, buscar en todos los archivos las expresiones "material", "guía", "consigna", "cátedra", "clase" y "docente" fuera de la portada, y reescribir donde aludan a material de estudio.
 
+## 6. Directriz de Depuración Final de Entregables (Al indicar "Listo para Entregar")
+
+> [!IMPORTANT]
+> **Condición de disparo:** Cuando el usuario indique expresamente que el trabajo está listo para entregar (o emita la orden de entrega final), el agente de IA **debe eliminar automáticamente** los siguientes archivos intermedios en formato Markdown (`.md`) y texto plano (`.txt`) de la carpeta de anexos `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/`, dado que sus versiones definitivas ya se encuentran compiladas y validadas al 100% en formato PDF:
+
+1. `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/01_Protocolo_Evidencia_Digital.md`  
+   *(Se conserva: `01_Protocolo_Evidencia_Digital.pdf` y `.docx`)*
+2. `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/02_Formulario_Cadena_Custodia.md`  
+   *(Se conserva: `02_Formulario_Cadena_Custodia.pdf` y `.docx`)*
+3. `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/03_Plantilla_Informe_Tecnico_Juridico_TUP.md`  
+   *(Se conserva: `03_Plantilla_Informe_Tecnico_Juridico_TUP.pdf` y `.docx`)*
+4. `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/04_Matriz_Riesgos.md`  
+   *(Se conserva: `04_Matriz_Riesgos.pdf` y `.xlsx`)*
+5. `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/05_ejemplo_registro_ficticio.txt`  
+   *(Se conserva: `05_ejemplo_registro_ficticio.pdf` y `05_calcular_hashes.py`)*
+6. `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/06_Prompts_y_Registro_IA.md`  
+   *(Se conserva: `06_Prompts_y_Registro_IA.pdf`)*
+7. `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/07_Declaracion_Uso_IA.md`  
+   *(Se conserva: `07_Declaracion_Uso_IA.pdf`)*
+8. `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/08_Fuentes_Caso.md`  
+   *(Se conserva: `08_Fuentes_Caso.pdf`)*
+
+**Acción complementaria obligatoria:**  
+Tras la eliminación de dichos 8 archivos, actualizar `resolucion-consignas/Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/LEEME.txt` para que el índice de contenidos refleje únicamente los archivos finales que componen el paquete comprimido `.zip` (los `.pdf`, `.docx`, `.xlsx`, el script Python `05_calcular_hashes.py`, la subcarpeta de sentencia y la carpeta de notas respaldatorias `10_Evidencia_Fuentes/`).
+

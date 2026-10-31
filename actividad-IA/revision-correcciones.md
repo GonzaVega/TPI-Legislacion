@@ -36,6 +36,7 @@
 - [x] **C3.** Revisar visualmente `Presentacion_TPI_Eje1.pptx` (convertir a PDF/imágenes): texto que desborda, y que el pie "Comisión 5 - UTN" y la tabla de la diapositiva 5 hayan quedado bien. El PPTX no cubre la diapositiva de "evidencias" del guion ni los números de diapositiva citados: alinear guion y diapositivas.
 - [x] **C4.** El guion suma 10:30 si cada bloque dura lo previsto, pero el texto leído parece mayor; contar palabras (~130 palabras/min) y ajustar a 8–12 min.
 - [x] **C5.** Borrar archivos auxiliares de la entrega: `generar_informe_docx.py` y `contenido-informe.md` no van al ZIP (están fuera de `anexos-para-zip`, bien), y confirmar que no quedó `registro_hashes_verificacion.csv` suelto.
+- [ ] **C6. Depuración de anexos intermedios (al indicar "Listo para Entregar"):** Cuando el usuario declare el trabajo listo para entregar, eliminar los 8 archivos intermedios `.md` y `.txt` de la carpeta de anexos (`01_Protocolo_Evidencia_Digital.md`, `02_Formulario_Cadena_Custodia.md`, `03_Plantilla_Informe_Tecnico_Juridico_TUP.md`, `04_Matriz_Riesgos.md`, `05_ejemplo_registro_ficticio.txt`, `06_Prompts_y_Registro_IA.md`, `07_Declaracion_Uso_IA.md`, `08_Fuentes_Caso.md`), preservando sus versiones definitivas en `.pdf` (así como los `.docx`, `.xlsx` y `05_calcular_hashes.py`), y actualizar `LEEME.txt`.
 
 ## D. Orden sugerido
 A1 → A2 → A4/A5 → A3 → B2/B1 → B3/B6 → B4/B5 → regenerar entregables → C → registrar todo en la bitácora y avisar al usuario cuando termine, con lista de lo que se eliminó por falta de respaldo.

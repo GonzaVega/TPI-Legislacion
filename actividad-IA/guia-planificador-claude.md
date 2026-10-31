@@ -37,7 +37,8 @@ flowchart TD
   1. Redactar y maquetar el informe final en formato Word (`.docx`) sobre `material/Plantilla entrega de trabajos ok.docx` y compilarlo en PDF.
   2. Redactar el guion completo de la presentación para 4 integrantes en `resolucion-consignas/presentacion-y-guion/guion-video-presentacion-4-integrantes.md`.
   3. Poblar la presentación editable en `resolucion-consignas/presentacion-y-guion/`.
-  4. Generar todos los archivos que integran la carpeta `resolucion-consignas/anexos-para-zip/` (informe pericial, formulario de cadena de custodia, script Python de verificación de hashes, matriz detallada y registros de IA).
+  4. Generar todos los archivos que integran la carpeta de anexos (`Anexos_TPI_Comision5_Serafini_Tcach_Salomon_Vega/`) en formatos DOCX, XLSX, script Python y PDF con 100% de fidelidad.
+  5. **Depuración previa a la entrega final:** Cuando el usuario indique expresamente que el trabajo está listo para entregar, eliminar de la carpeta de anexos los archivos intermedios `.md` y `.txt` (`01` al `08`), conservando los definitivos en PDF (además de los .docx, .xlsx y scripts), y actualizar `LEEME.txt`.
 
 ---
 
