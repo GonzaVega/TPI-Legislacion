@@ -1,17 +1,22 @@
-CONSTANCIA DE INVESTIGACIÓN JURISPRUDENCIAL Y ESTADO DE LA SENTENCIA
+CONSTANCIA DE INVESTIGACIÓN SOBRE LA SENTENCIA EN LA JUSTICIA PORTEÑA
 
-Tribunal: Juzgado de 1ª Instancia en lo Penal, Contravencional y de Faltas Nº 29 de la Ciudad Autónoma de Buenos Aires.
-Jueza interviniente: Dra. María Araceli Martínez.
-Imputado: Elías Ezequiel Nuñes Pinheiro.
-Procedimiento: Homologación de Juicio Abreviado (Sentencia condenatoria).
-Fecha: Octubre de 2023.
-Pena: 3 años de prisión en suspenso (ejecución condicional), fijar residencia y someterse al cuidado del Patronato de Liberados.
-Delitos condenados: Acceso ilegítimo a datos informáticos de acceso restringido (art. 153 bis del Código Penal Argentino), sustracción de documentos públicos y entorpecimiento de las comunicaciones (art. 197 del CPA).
+Tribunal: Juzgado Penal 29 de la Ciudad Autónoma de Buenos Aires [F1, F2].
+Jueza interviniente: Dra. María Araceli Martínez [F1, F2].
+Imputado: Elías Ezequiel Nuñes Pinheiro (oriundo de Eldorado, Misiones) [F1, F2].
+Procedimiento: Homologación de acuerdo de juicio abreviado [F1, F2] (nota: [F1] también utiliza en su titular y texto la expresión "probation" / "suspensión de juicio a prueba", pero ambas fuentes coinciden en que se homologó un juicio abreviado con condena).
+Fecha de las publicaciones que informan la resolución: 08/06/2026 en La Nación [F2] y 18/07/2026 en Infobae [F1].
+Pena impuesta: 3 años de prisión en suspenso (ejecución condicional), fijar residencia, someterse al cuidado del Patronato de Liberados y cumplir 150 horas de tareas comunitarias no remuneradas [F1, F2].
+Alcance adicional reportado:
+- Según Infobae [F1], se dispuso el decomiso directo de los elementos incautados.
+- Según La Nación [F2], la pena de 3 años en suspenso unificó y absorbió una condena previa de 2 años y 6 meses dictada en 2024 por el Tribunal Oral Federal N° 2, comprendiendo los ataques a Marcelo D’Alessandro y Diego Santilli.
+- Ninguna de las fuentes consultadas afirma que la sentencia se encuentre firme.
+
+Delitos mencionados en la prensa:
+- Según Infobae [F1]: acceso ilegítimo a datos informáticos restringidos, sustracción de documento público y entorpecimiento de las comunicaciones.
+- Según La Nación [F2]: la destrucción del teléfono utilizado derivó además en una imputación por destrucción de medios de prueba.
+- Aclaración: las notas periodísticas no citan números de artículo del Código Penal. La vinculación con los artículos 153 bis, 153, 197 y 255 del Código Penal desarrollada en el informe constituye una interpretación propia del equipo a partir del texto de la Ley 26.388.
 
 NOTA SOBRE EL ACCESO AL TEXTO ÍNTEGRO:
-De acuerdo con las consultas realizadas en el portal del Poder Judicial de la Ciudad Autónoma de Buenos Aires (JusBaires) y repositorios oficiales abiertos, el texto íntegro en PDF con los considerandos de sentencias de juicio abreviado de primera instancia en causas penales con medidas de protección de datos personales de las víctimas no se encuentra disponible para descarga pública irrestricta por internet sin previa autenticación judicial o solicitud formal ante la secretaría del tribunal.
-
-Por tal razón, y siguiendo las pautas de integridad y no invención acordadas para este trabajo:
-1. No se ha generado ni reconstruido un texto apócrifo de la sentencia.
-2. Los datos fácticos, calificación legal y resolución condenatoria fueron verificados y cruzados a través de múltiples coberturas de fuentes periodísticas fidedignas (Infobae, Clarín, La Nación, Perfil, Página/12, Primera Edición de Misiones y El Territorio), cuyos resúmenes y enlaces constan en la carpeta de anexos "10_Evidencia_Fuentes" y en el documento "08_Fuentes_Caso.md".
-3. En caso de que se obtenga el testimonio en PDF directamente del tribunal (Juzgado PCyF Nº 29, Beruti 3345, CABA), el archivo digital correspondiente se incorporará en este directorio.
+El texto íntegro en PDF de la resolución homologatoria no se encuentra publicado en los buscadores abiertos consultados ni en las notas periodísticas relevadas. Por ese motivo, siguiendo la regla de no inventar ni reconstruir documentos judiciales:
+1. No se ha generado ningún texto apócrifo de la sentencia ni se han inventado números de expediente.
+2. Los hechos, la pena y las diferencias entre coberturas periodísticas se documentan a partir de las notas completas guardadas en la carpeta "10_Evidencia_Fuentes/" y clasificadas en "08_Fuentes_Caso.md".

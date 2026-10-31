@@ -8,53 +8,56 @@ Comisión: Comisión 5
 Integrantes: Mateo Serafini, Hugo Tcach, Farid Salomon, Gonzalo Vega
 Caso: Elías Ezequiel Nuñes Pinheiro (SIM Swapping y Evidencia Digital)
 
-Este directorio contiene la totalidad de los anexos documentales, periciales,
-normativos y de gobernanza de Inteligencia Artificial que integran la entrega:
+Este directorio contiene los anexos documentales, modelos de práctica, planillas,
+scripts y registros de trazabilidad de Inteligencia Artificial que acompañan al
+informe escrito:
 
-01_Protocolo_Evidencia_Digital.md
-   Guía práctica de cinco pasos simples para el relevamiento, aislamiento,
-   duplicación forense, cálculo de hash y preservación de evidencia digital.
+01_Protocolo_Evidencia_Digital.md (y .docx)
+   Guía práctica de cinco pasos básicos para identificar, aislar, copiar sin
+   tocar el original, calcular el hash SHA-256 y registrar la cadena de custodia.
 
-02_Formulario_Cadena_Custodia.md
-   Modelo formal de acta y registro de cadena de custodia para documentar de
-   forma verificable el recorrido físico y lógico de los elementos secuestrados.
+02_Formulario_Cadena_Custodia.md (y .docx)
+   Modelo de formulario de cadena de custodia completado con datos ficticios de
+   práctica (sobre el archivo 05_ejemplo_registro_ficticio.txt) para ilustrar
+   cómo se documenta el recorrido y el hash de un archivo.
 
-03_Plantilla_Informe_Tecnico_Juridico_TUP.md
-   Estructura estandarizada de informe pericial técnico elaborado para el
-   Técnico Universitario en Programación que colabora como consultor de parte.
+03_Plantilla_Informe_Tecnico_Juridico_TUP.md (y .docx)
+   Modelo de informe técnico para el Técnico Universitario en Programación,
+   completado como ejemplo con datos ficticios sobre el archivo de práctica.
 
 04_Matriz_Riesgos.xlsx (y 04_Matriz_Riesgos.md)
-   Planilla de cálculo con la matriz completa de 7 riesgos clasificados por
-   tipo, probabilidad, impacto, criticidad y medidas concretas de mitigación.
+   Planilla de cálculo y tabla con los 7 riesgos analizados, clasificados de
+   forma cualitativa por probabilidad, impacto, criticidad y medidas propuestas.
 
-05_calcular_hashes.py
-   Script simple en Python (utiliza exclusivamente la librería estándar hashlib)
-   para calcular y verificar de forma reproducible códigos hash SHA-256 de
-   archivos o directorios, generando un archivo CSV de constancia.
+05_calcular_hashes.py y 05_ejemplo_registro_ficticio.txt
+   Script simple en Python (usa únicamente la librería estándar hashlib) para
+   calcular códigos hash SHA-256, acompañado del archivo de registro ficticio
+   de práctica (hash SHA-256: 40b4ae55313c6236cb881819d70514e1891faf4d6aa68d7975c72b42749c57a4).
 
 06_Prompts_y_Registro_IA.md
-   Bitácora completa y cronológica de interacción con herramientas de IA,
-   registrando consultas, aportes aprovechados, correcciones de alucinaciones
-   y métodos de verificación humana cruzada.
+   Bitácora cronológica de interacción con herramientas de IA, registrando
+   consultas, aportes aprovechados, errores detectados y corregidos, y
+   verificación humana contra las fuentes reales.
 
 07_Declaracion_Uso_IA.md
-   Declaración ética y formal de uso responsable y trazable de Inteligencia
-   Artificial conforme a las directrices de la consigna oficial.
+   Declaración formal de uso ético, responsable y trazable de herramientas de
+   Inteligencia Artificial por parte del equipo.
 
 08_Fuentes_Caso.md
-   Compilado integral de fuentes consultadas: tanto los documentos de estudio
-   oficiales como la matriz de fuentes periodísticas y judiciales del caso.
+   Registro completo de las fuentes de estudio (verificadas con pdftotext) y de
+   las nueve notas periodísticas abiertas y leídas el 30/10/2026 ([F1] a [F9]),
+   con su clasificación en datos confirmados, reportados y contradictorios.
 
 09_Sentencia_Abreviado_CABA/
-   Carpeta que contiene el documento LEEME.txt con la radicación institucional
-   de la sentencia en el Juzgado PCyF Nº 29 de CABA, el detalle de la condena
-   homologada en juicio abreviado y la explicación de la reserva de acceso público.
+   Carpeta con el documento LEEME.txt que detalla los datos publicados sobre la
+   condena en juicio abreviado homologado en el Juzgado Penal 29 de CABA y deja
+   constancia de que el texto íntegro del fallo no es de acceso público abierto.
 
 10_Evidencia_Fuentes/
-   Resúmenes analíticos y enlaces directos a las notas de prensa judicial
-   de Infobae, Clarín, La Nación, Perfil, Página/12, Primera Edición y El Territorio.
+   Textos completos descargados de las nueve notas periodísticas leídas
+   (F1_Infobae.md a F9_LaNación.md) y su resumen (Resumen_Notas_Periodisticas_Caso.md).
 
 ================================================================================
 Nota: Este conjunto de archivos está preparado para ser comprimido en formato .ZIP
-por el usuario para su entrega final.
+para su entrega final.
 ================================================================================

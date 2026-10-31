@@ -1,0 +1,8 @@
+# EJEMPLO FICTICIO - NO CORRESPONDE A NINGUNA CAUSA NI EMPRESA REAL
+# Archivo de práctica creado por el equipo para probar el cálculo de hash y completar los modelos de los anexos 02 y 03.
+# Formato: fecha_hora | evento | ip_origen | linea | resultado
+2025-01-10 14:18:22 | solicitud_reposicion_sim | 192.0.2.10 | 11-0000-0000 | iniciada
+2025-01-10 14:18:40 | validacion_datos         | 192.0.2.10 | 11-0000-0000 | aprobada (linea, dni, nro_tramite)
+2025-01-10 14:19:05 | baja_sim_anterior        | 192.0.2.10 | 11-0000-0000 | ejecutada
+2025-01-10 14:21:40 | envio_codigo_sms         | 192.0.2.10 | 11-0000-0000 | enviado a la SIM nueva
+2025-01-10 14:30:12 | consulta_estado          | 198.51.100.7 | 11-0000-0000 | solo lectura
