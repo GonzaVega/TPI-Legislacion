@@ -12,46 +12,47 @@ Este directorio contiene los anexos documentales, modelos de práctica, planilla
 scripts y registros de trazabilidad de Inteligencia Artificial que acompañan al
 informe escrito:
 
-01_Protocolo_Evidencia_Digital.md (y .docx)
+01_Protocolo_Evidencia_Digital.md (y .docx / .pdf)
    Guía práctica de cinco pasos básicos para identificar, aislar, copiar sin
    tocar el original, calcular el hash SHA-256 y registrar la cadena de custodia.
 
-02_Formulario_Cadena_Custodia.md (y .docx)
+02_Formulario_Cadena_Custodia.md (y .docx / .pdf)
    Modelo de formulario de cadena de custodia completado con datos ficticios de
    práctica (sobre el archivo 05_ejemplo_registro_ficticio.txt) para ilustrar
    cómo se documenta el recorrido y el hash de un archivo.
 
-03_Plantilla_Informe_Tecnico_Juridico_TUP.md (y .docx)
+03_Plantilla_Informe_Tecnico_Juridico_TUP.md (y .docx / .pdf)
    Modelo de informe técnico para el Técnico Universitario en Programación,
    completado como ejemplo con datos ficticios sobre el archivo de práctica.
 
-04_Matriz_Riesgos.xlsx (y 04_Matriz_Riesgos.md)
+04_Matriz_Riesgos.xlsx (y 04_Matriz_Riesgos.md / .pdf)
    Planilla de cálculo y tabla con los 7 riesgos analizados, clasificados de
    forma cualitativa por probabilidad, impacto, criticidad y medidas propuestas.
 
-05_calcular_hashes.py y 05_ejemplo_registro_ficticio.txt
+05_calcular_hashes.py y 05_ejemplo_registro_ficticio.txt (y .pdf)
    Script simple en Python (usa únicamente la librería estándar hashlib) para
    calcular códigos hash SHA-256, acompañado del archivo de registro ficticio
    de práctica (hash SHA-256: 40b4ae55313c6236cb881819d70514e1891faf4d6aa68d7975c72b42749c57a4).
 
-06_Prompts_y_Registro_IA.md
+06_Prompts_y_Registro_IA.md (y .pdf)
    Bitácora cronológica de interacción con herramientas de IA, registrando
    consultas, aportes aprovechados, errores detectados y corregidos, y
    verificación humana contra las fuentes reales.
 
-07_Declaracion_Uso_IA.md
+07_Declaracion_Uso_IA.md (y .pdf)
    Declaración formal de uso ético, responsable y trazable de herramientas de
    Inteligencia Artificial por parte del equipo.
 
-08_Fuentes_Caso.md
+08_Fuentes_Caso.md (y .pdf)
    Registro completo de las fuentes de estudio (verificadas con pdftotext) y de
    las nueve notas periodísticas abiertas y leídas el 30/10/2026 ([F1] a [F9]),
    con su clasificación en datos confirmados, reportados y contradictorios.
 
 09_Sentencia_Abreviado_CABA/
-   Carpeta con el documento LEEME.txt que detalla los datos publicados sobre la
-   condena en juicio abreviado homologado en el Juzgado Penal 29 de CABA y deja
-   constancia de que el texto íntegro del fallo no es de acceso público abierto.
+   Carpeta con los documentos LEEME.txt y LEEME.pdf que detallan los datos
+   publicados sobre la condena en juicio abreviado homologado en el Juzgado Penal
+   29 de CABA y dejan constancia de que el texto íntegro del fallo no es de
+   acceso público abierto.
 
 10_Evidencia_Fuentes/
    Textos completos descargados de las nueve notas periodísticas leídas

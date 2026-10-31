@@ -14,9 +14,9 @@
 | Bloque | Integrante | Temas Asignados | Diapositivas | Palabras Aprox. | Tiempo Estimado |
 |:---|:---|:---|:---|:---|:---|
 | **Bloque 1** | **Mateo Serafini** | Apertura, presentación del equipo, resumen ejecutivo y hechos verificados del caso Nuñes Pinheiro (Etapa 1). | Diapositivas 1, 2 y 3 | ~325 palabras | **00:00 a 02:30 (2:30 min)** |
-| **Bloque 2** | **Hugo Tcach** | Marco jurídico aplicable: Ley 26.388 (arts. 153 bis, 153, 197 y 255 CP; figuras conexas arts. 157 bis y 173 inc. 16), Art. 18 CN, Ley 25.326 y Convenio de Budapest (Etapa 2). | Diapositiva 4 | ~325 palabras | **02:30 a 05:00 (2:30 min)** |
+| **Bloque 2** | **Gonzalo Vega** | Marco jurídico aplicable: Ley 26.388 (arts. 153 bis, 153, 197 y 255 CP; figuras conexas arts. 157 bis y 173 inc. 16), Art. 18 CN, Ley 25.326 y Convenio de Budapest (Etapa 2). | Diapositiva 4 | ~325 palabras | **02:30 a 05:00 (2:30 min)** |
 | **Bloque 3** | **Farid Salomon** | Matriz cualitativa de siete riesgos y medidas simples de prevención para sistemas y operadoras (Etapas 3 y 4). | Diapositivas 5 y 6 | ~325 palabras | **05:00 a 07:30 (2:30 min)** |
-| **Bloque 4** | **Gonzalo Vega** | Uso crítico y trazable de IA, protocolo de 5 pasos, modelos con datos ficticios y hash SHA-256, conclusiones profesionales y cierre (Etapas 4, 5 y 6). | Diapositivas 7, 8, 9 y 10 | ~330 palabras | **07:30 a 10:00 (2:30 min)** |
+| **Bloque 4** | **Hugo Tcach** | Uso crítico y trazable de IA, protocolo de 5 pasos, modelos con datos ficticios y hash SHA-256, conclusiones profesionales y cierre (Etapas 4, 5 y 6). | Diapositivas 7, 8, 9 y 10 | ~330 palabras | **07:30 a 10:00 (2:30 min)** |
 
 ---
 
@@ -34,12 +34,12 @@
 > *"Como estudiantes de programación, elegimos este caso porque muestra que la seguridad informática no depende solo del código de una aplicación, sino también de cómo se valida la identidad de las personas y cómo se protegen sus datos. Organizamos el recorrido en seis etapas: hechos y alcance del caso, marco legal aplicable, matriz de riesgos, medidas y protocolos propuestos, uso crítico de inteligencia artificial y conclusiones profesionales."*
 
 *(Diapositiva 3: Presentación del Caso Nuñes Pinheiro)*
-> *"Los hechos ocurrieron en octubre de 2022 desde la ciudad de Eldorado, en la provincia de Misiones. Nuñes Pinheiro ejecutó ataques de SIM swapping contra el exministro de Seguridad porteño Marcelo D'Alessandro y, según informó el diario La Nación, también contra el entonces diputado Diego Santilli. Para lograrlo, primero obtenía datos personales de las víctimas —como el número de trámite del DNI— mediante consultas al RENAPER, a Nosis y al sitio Dark PFA. Con esos datos gestionaba de forma remota ante Movistar el cambio de chip, ya que la plataforma pedía únicamente número de línea, DNI y número de trámite, e insertaba una tarjeta SIM blanca comprada a la empresa Comtel. Al activarse el chip en Misiones, el titular quedaba sin señal y el atacante recibía los códigos de verificación para abrir WhatsApp y Telegram. Declaró ante la fiscal Daniela Dupuy que actuaba por encargo del usuario de Telegram 'ElJuanxd', cobrando entre doce mil y quince mil pesos por objetivo, y que luego quemó el celular y lo tiró al río Paraná. En la justicia porteña, la jueza María Araceli Martínez, del Juzgado Penal 29, homologó un acuerdo de juicio abreviado imponiéndole tres años de prisión en suspenso y ciento cincuenta horas de tareas comunitarias, mientras continúa en trámite una causa federal paralela en Comodoro Py. Le doy la palabra a Hugo para ver el marco legal."*
+> *"Los hechos ocurrieron en octubre de 2022 desde la ciudad de Eldorado, en la provincia de Misiones. Nuñes Pinheiro ejecutó ataques de SIM swapping contra el exministro de Seguridad porteño Marcelo D'Alessandro y, según informó el diario La Nación, también contra el entonces diputado Diego Santilli. Para lograrlo, primero obtenía datos personales de las víctimas —como el número de trámite del DNI— mediante consultas al RENAPER, a Nosis y al sitio Dark PFA. Con esos datos gestionaba de forma remota ante Movistar el cambio de chip, ya que la plataforma pedía únicamente número de línea, DNI y número de trámite, e insertaba una tarjeta SIM blanca comprada a la empresa Comtel. Al activarse el chip en Misiones, el titular quedaba sin señal y el atacante recibía los códigos de verificación para abrir WhatsApp y Telegram. Declaró ante la fiscal Daniela Dupuy que actuaba por encargo del usuario de Telegram 'ElJuanxd', cobrando entre doce mil y quince mil pesos por objetivo, y que luego quemó el celular y lo tiró al río Paraná. En la justicia porteña, la jueza María Araceli Martínez, del Juzgado Penal 29, homologó un acuerdo de juicio abreviado imponiéndole tres años de prisión en suspenso y ciento cincuenta horas de tareas comunitarias, mientras continúa en trámite una causa federal paralela en Comodoro Py. Le doy la palabra a Gonzalo para ver el marco legal."*
 
 ---
 
 ### BLOQUE 2: MARCO JURÍDICO APLICABLE
-**Expositor:** Hugo Tcach  
+**Expositor:** Gonzalo Vega  
 **Tiempo:** 02:30 – 05:00 (2 minutos y 30 segundos)  
 **Diapositiva:** 4
 
@@ -60,7 +60,7 @@
 **Diapositivas:** 5 y 6
 
 *(Diapositiva 5: Matriz de Riesgos)*
-> *"Gracias, Hugo. A partir del caso armamos una matriz con siete riesgos evaluados de forma cualitativa por su probabilidad, impacto y criticidad.*  
+> *"Gracias, Gonzalo. A partir del caso armamos una matriz con siete riesgos evaluados de forma cualitativa por su probabilidad, impacto y criticidad.*  
 > *Identificamos dos riesgos de nivel crítico. El primero es que se apruebe un cambio de tarjeta SIM pidiendo solo datos personales fáciles de conseguir, como el número de línea, el DNI y el número de trámite, lo que incumple el deber de seguridad del artículo 9 de la Ley 25.326.*  
 > *El segundo riesgo crítico es usar mensajes de texto SMS como código de verificación: como el SMS llega al chip activo, quien logra duplicar la SIM recibe el código en su propio teléfono.*  
 > *Luego ubicamos con criticidad alta el acceso indebido a cuentas de WhatsApp y Telegram —penado por los artículos 153 bis y 153 del Código Penal— y el riesgo procesal de que la evidencia digital pierda valor probatorio si falla la cadena de custodia.*  
@@ -71,12 +71,12 @@
 > *Primero, sumar un paso adicional para aprobar un cambio de SIM: exigir el trámite presencial con DNI o una confirmación por otro canal que el titular ya tenga registrado, en lugar de validar solo con datos estáticos.*  
 > *Segundo, enviar un aviso previo por correo electrónico o notificación cuando alguien solicita un nuevo chip y dar un tiempo prudencial para que el titular pueda frenar el trámite antes de que se dé de baja su tarjeta SIM.*  
 > *Tercero, al desarrollar aplicaciones, dejar de depender del SMS y ofrecer aplicaciones autenticadoras de códigos temporales, además de activar el PIN de verificación en dos pasos propio de WhatsApp y Telegram.*  
-> *Y cuarto, guardar registros básicos de actividad con fecha, hora, dirección IP y quién autorizó cada cambio. Le paso la palabra a Gonzalo para explicar el protocolo de evidencia digital, el uso de IA y las conclusiones."*
+> *Y cuarto, guardar registros básicos de actividad con fecha, hora, dirección IP y quién autorizó cada cambio. Le paso la palabra a Hugo para explicar el protocolo de evidencia digital, el uso de IA y las conclusiones."*
 
 ---
 
 ### BLOQUE 4: USO DE IA, EVIDENCIA DIGITAL Y CONCLUSIONES
-**Expositor:** Gonzalo Vega  
+**Expositor:** Hugo Tcach  
 **Tiempo:** 07:30 – 10:00 (2 minutos y 30 segundos)  
 **Diapositivas:** 7, 8, 9 y 10
 
@@ -91,21 +91,5 @@
 *(Diapositiva 9: Conclusiones y Rol Profesional del Programador)*
 > *"Como conclusión, este caso nos enseña que los programadores debemos diseñar la autenticación pensando en la seguridad desde el inicio, generar registros confiables en los sistemas, cuidar la integridad de la prueba digital y actuar con responsabilidad ética y apego a la ley."*
 
-*(Diapositiva 10: Cierre y Espacio de Preguntas)*
-> *"Con esto finalizamos la presentación del equipo de la Comisión 5 y quedamos a disposición para responder cualquier consulta. Muchas gracias."*
-
----
-
-## 3. Preguntas Probables y Respuestas de Apoyo
-
-### Pregunta 1: *"¿Por qué afirman que el SMS no es un método seguro de verificación?"*
-* **Respuesta sugerida (Farid o Mateo):**  
-  *"Porque el mensaje de texto SMS está asociado a la línea telefónica y llega al chip SIM que se encuentre activo en la red celular. Cuando un atacante logra mediante SIM swapping que la operadora active la línea de la víctima en una tarjeta SIM nueva en su poder, todos los SMS con códigos de activación llegan directamente al teléfono del atacante. En cambio, una aplicación autenticadora de códigos temporales (TOTP) o un PIN interno de segundo factor no dependen de la tarjeta SIM."*
-
-### Pregunta 2: *"Si hay un error al anotar el código hash en un acta, ¿la prueba digital se anula automáticamente?"*
-* **Respuesta sugerida (Gonzalo o Hugo):**  
-  *"No se anula de manera automática. En el fallo del 5 de octubre de 2021 de la Sala III de la Cámara de Apelaciones en lo Penal, Penal Juvenil, Contravencional y de Faltas de CABA (Causa 41459/2019-3), el Cuerpo de Investigaciones Judiciales había grabado en video la pantalla de un celular y calculado su hash, pero en el acta de resguardo anotó por error involuntario el hash de un modelo de acta anterior, error que luego advirtió y subsanó dejando constancia. Por mayoría, el tribunal rechazó la nulidad explicando que las nulidades son excepcionales, exigen demostrar un perjuicio concreto y el acto era reproducible. Por eso en nuestro protocolo destacamos la importancia de calcular bien el hash y, si ocurre un error material al transcribirlo, dejar constancia transparente de la rectificación."*
-
-### Pregunta 3: *"¿Qué diferencia hay entre lo resuelto en la Ciudad de Buenos Aires y la causa federal de Comodoro Py?"*
-* **Respuesta sugerida (Mateo o Hugo):**  
-  *"En la Ciudad de Buenos Aires, la jueza María Araceli Martínez (Juzgado Penal 29) homologó un acuerdo de juicio abreviado e impuso a Nuñes Pinheiro tres años de prisión en suspenso y 150 horas de tareas comunitarias por los ataques analizados en ese fuero, certificando previamente con el juzgado federal que no se tratara de los mismos hechos para respetar el principio non bis in idem [F1, F2]. En cambio, en el juzgado federal de Marcelo Martínez de Giorgi continúa en trámite una investigación más amplia por presunto espionaje ilegal a jueces federales y miembros de la Corte Suprema, donde Nuñes Pinheiro fue procesado por asociación ilícita en agosto de 2026 [F9] y apeló ese procesamiento en septiembre de 2026 [F8]."*
+*(Diapositiva 10: Cierre de la Presentación)*
+> *"Con esto finalizamos la presentación del equipo de la Comisión 5. Muchas gracias por su atención."*
