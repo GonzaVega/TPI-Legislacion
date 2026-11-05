@@ -8,48 +8,49 @@ Comisión: Comisión 5
 Integrantes: Mateo Serafini, Hugo Tcach, Farid Salomon, Gonzalo Vega
 Caso: Elías Ezequiel Nuñes Pinheiro (SIM Swapping y Evidencia Digital)
 
-Este directorio contiene los anexos documentales, modelos de práctica, planillas,
-scripts y registros de trazabilidad de Inteligencia Artificial que acompañan al
-informe escrito:
+Este directorio contiene los anexos documentales en PDF, modelos de práctica,
+planilla de riesgos, script en Python y registros de trazabilidad de
+Inteligencia Artificial que acompañan al informe escrito:
 
-01_Protocolo_Evidencia_Digital.md (y .docx / .pdf)
+01_Protocolo_Evidencia_Digital.pdf
    Guía práctica de cinco pasos básicos para identificar, aislar, copiar sin
    tocar el original, calcular el hash SHA-256 y registrar la cadena de custodia.
 
-02_Formulario_Cadena_Custodia.md (y .docx / .pdf)
+02_Formulario_Cadena_Custodia.pdf
    Modelo de formulario de cadena de custodia completado con datos ficticios de
-   práctica (sobre el archivo 05_ejemplo_registro_ficticio.txt) para ilustrar
-   cómo se documenta el recorrido y el hash de un archivo.
+   práctica (sobre el documento de registro ficticio 05_ejemplo_registro_ficticio.pdf)
+   para ilustrar cómo se documenta el recorrido y el hash de un archivo.
 
-03_Plantilla_Informe_Tecnico_Juridico_TUP.md (y .docx / .pdf)
+03_Plantilla_Informe_Tecnico_Juridico_TUP.pdf
    Modelo de informe técnico para el Técnico Universitario en Programación,
-   completado como ejemplo con datos ficticios sobre el archivo de práctica.
+   completado como ejemplo con datos ficticios sobre el documento de práctica.
 
-04_Matriz_Riesgos.xlsx (y 04_Matriz_Riesgos.md / .pdf)
-   Planilla de cálculo y tabla con los 7 riesgos analizados, clasificados de
-   forma cualitativa por probabilidad, impacto, criticidad y medidas propuestas.
+04_Matriz_Riesgos.pdf (y planilla editable 04_Matriz_Riesgos.xlsx)
+   Tabla en PDF y planilla de cálculo con los 7 riesgos analizados, clasificados
+   de forma cualitativa por probabilidad, impacto, criticidad y medidas propuestas.
 
-05_calcular_hashes.py y 05_ejemplo_registro_ficticio.txt (y .pdf)
+05_calcular_hashes.py y 05_ejemplo_registro_ficticio.pdf
    Script simple en Python (usa únicamente la librería estándar hashlib) para
-   calcular códigos hash SHA-256, acompañado del archivo de registro ficticio
-   de práctica (hash SHA-256: 40b4ae55313c6236cb881819d70514e1891faf4d6aa68d7975c72b42749c57a4).
+   calcular códigos hash SHA-256, acompañado del documento de registro ficticio
+   de práctica (hash SHA-256 del archivo de texto original de 731 bytes:
+   40b4ae55313c6236cb881819d70514e1891faf4d6aa68d7975c72b42749c57a4).
 
-06_Prompts_y_Registro_IA.md (y .pdf)
+06_Prompts_y_Registro_IA.pdf
    Bitácora cronológica de interacción con herramientas de IA, registrando
    consultas, aportes aprovechados, errores detectados y corregidos, y
    verificación humana contra las fuentes reales.
 
-07_Declaracion_Uso_IA.md (y .pdf)
+07_Declaracion_Uso_IA.pdf
    Declaración formal de uso ético, responsable y trazable de herramientas de
    Inteligencia Artificial por parte del equipo.
 
-08_Fuentes_Caso.md (y .pdf)
+08_Fuentes_Caso.pdf
    Registro completo de las fuentes de estudio (verificadas con pdftotext) y de
    las nueve notas periodísticas abiertas y leídas el 30/10/2026 ([F1] a [F9]),
    con su clasificación en datos confirmados, reportados y contradictorios.
 
 09_Sentencia_Abreviado_CABA/
-   Carpeta con los documentos LEEME.txt y LEEME.pdf que detallan los datos
+   Carpeta con los documentos LEEME.pdf y LEEME.txt que detallan los datos
    publicados sobre la condena en juicio abreviado homologado en el Juzgado Penal
    29 de CABA y dejan constancia de que el texto íntegro del fallo no es de
    acceso público abierto.
@@ -57,8 +58,3 @@ informe escrito:
 10_Evidencia_Fuentes/
    Textos completos descargados de las nueve notas periodísticas leídas
    (F1_Infobae.md a F9_LaNación.md) y su resumen (Resumen_Notas_Periodisticas_Caso.md).
-
-================================================================================
-Nota: Este conjunto de archivos está preparado para ser comprimido en formato .ZIP
-para su entrega final.
-================================================================================

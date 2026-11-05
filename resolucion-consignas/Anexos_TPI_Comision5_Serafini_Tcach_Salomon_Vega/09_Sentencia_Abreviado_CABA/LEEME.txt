@@ -19,4 +19,4 @@ Delitos mencionados en la prensa:
 NOTA SOBRE EL ACCESO AL TEXTO ÍNTEGRO:
 El texto íntegro en PDF de la resolución homologatoria no se encuentra publicado en los buscadores abiertos consultados ni en las notas periodísticas relevadas. Por ese motivo, siguiendo la regla de no inventar ni reconstruir documentos judiciales:
 1. No se ha generado ningún texto apócrifo de la sentencia ni se han inventado números de expediente.
-2. Los hechos, la pena y las diferencias entre coberturas periodísticas se documentan a partir de las notas completas guardadas en la carpeta "10_Evidencia_Fuentes/" y clasificadas en "08_Fuentes_Caso.md".
+2. Los hechos, la pena y las diferencias entre coberturas periodísticas se documentan a partir de las notas completas guardadas en la carpeta "10_Evidencia_Fuentes/" y clasificadas en "08_Fuentes_Caso.pdf".
